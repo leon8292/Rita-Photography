@@ -218,7 +218,8 @@ padding: 0.75em 0; /* ← BETTER FOR THUMBS */ }
 .contactinfo {
   width: 100%;
   text-align: center;
-  font-size: 0.85em;
+  font-size: 1.8em; /*this makes the text larger - was 0.85em */
+  font-weight: bold;  /*this makes the text bold */
   line-height: 1.6;
   margin-top: 0.5em;
   color: #3F2860;
@@ -296,6 +297,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   gap: 2em;
+  align-items: center; /* centers content vertically */
 }
 
 .col-half {
